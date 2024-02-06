@@ -17,7 +17,7 @@
 <body>
     <!-- combining the php and the html  -->
     <h1>
-        <?= "Variable Declaration";?>
+        <?= "Main";?>
     </h1>
     <h2>
         
