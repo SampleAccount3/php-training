@@ -12,10 +12,7 @@
 <body>
     <!-- combining the php and the html  -->
     <h1>
-        Kangkong
-        <?php
-            echo "Hello World!!! $name";
-        ?>
+        <?= "Hello World!!! $name";?>
     </h1>
 </body>
 </html>
