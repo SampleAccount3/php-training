@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+<!-- the var should always be declared at the top -->
 <?php
     $name = "Melares";
 ?>
@@ -9,6 +10,7 @@
     <title>Document</title>
 </head>
 <body>
+    <!-- combining the php and the html  -->
     <h1>
         Kangkong
         <?php
