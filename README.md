@@ -7,3 +7,14 @@
 - constant and define()
 - type casting
 - type juggling
+
+2. Control Flow
+- Conditional Statement
+    - if elseif else
+    - switch
+- Iteration
+    - for 
+    - while 
+- Stopper
+    - break
+    - continue
