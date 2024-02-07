@@ -126,6 +126,16 @@
                 echo '</pre>';
             ?>
         </h3>
+        <h3>
+            <!-- data juggling -->
+            <?php
+                // php automatically converts your data and determine the data type --
+                // by the context in which you use the variable
+                $int_juggle = 2;
+                $string_juggle = '2';
+                echo $result_juggle = $int_juggle + $string_juggle;
+            ?>
+        </h3>
        
     </div>
 </body>
