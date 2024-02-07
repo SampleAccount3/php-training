@@ -21,26 +21,26 @@
 
     // declaring constant arrays 
     const RGB = ['red','blue','green'];
+    // a variable is Scalar if it holds the value of boolean, int, float, and string
     const SCALAR = [
         'Boolean',
         'Integer',
         'Float',
         'String'];
+    // a variable is a compound if it contains more than 1 value
     const COMPOUND  = [
         'Array',
         'Object'
     ];
+    // a variable that holds a NULL or a external Resource file
     const SPECIAL = [
         'NULL',
         'Resource'
     ];
-    
     const PHP = [
         SCALAR,
         COMPOUND,
-        'Special'];
-    const PHPDATATYPETREE =[PHP];
-
+        SPECIAL];
     // defining variables
     // method('CONSTANT_NAME', 'constantvalue');
     define('MYNAME', 'Melanio');
@@ -53,6 +53,7 @@
     // var_dump($name),
     // die function terminates the script and it will not read the next line
     // die();
+
 ?>
 <head>
     <meta charset="UTF-8">
@@ -83,7 +84,7 @@
             var_dump($double) ?>
         </h3>
         <h3>
-            <!-- the .. contatination is equivalent to ++ in java in c# -->
+            <!-- the .. contatination is equivalent to ++ in java and c# -->
             <?= '$name ='.$name." ".
             '$name1 ='.$name1." ".
             '$name2 ='.$name2." ".
@@ -101,8 +102,28 @@
         <h3>
             <?php
             echo '<pre>';
-            var_dump(PHPDATATYPETREE);
+            var_dump(PHP);
             echo '</pre>';
+            ?>
+        </h3>
+        <h3>
+            <!-- Type Casting -->
+            <?php
+                // float data type to int
+                echo '<pre>';
+                $float_number = 2.5;
+                echo var_dump($float_number);
+                // type Casting Syntax var1 = (data type) var2;
+                // convert var2 into (data type) then pass the value as an int
+                $int_number = (int) $float_number;
+                echo var_dump($int_number);
+                // int to String
+                $string_number = (string) $int_number;
+                echo var_dump($string_number);
+                // float to String
+                $float_number = (float) $string_number;
+                echo var_dump($float_number);
+                echo '</pre>';
             ?>
         </h3>
        
