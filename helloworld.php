@@ -21,6 +21,25 @@
 
     // declaring constant arrays 
     const RGB = ['red','blue','green'];
+    const SCALAR = [
+        'Boolean',
+        'Integer',
+        'Float',
+        'String'];
+    const COMPOUND  = [
+        'Array',
+        'Object'
+    ];
+    const SPECIAL = [
+        'NULL',
+        'Resource'
+    ];
+    
+    const PHP = [
+        SCALAR,
+        COMPOUND,
+        'Special'];
+    const PHPDATATYPETREE =[PHP];
 
     // defining variables
     // method('CONSTANT_NAME', 'constantvalue');
@@ -47,7 +66,6 @@
     </h1>
     <div>
         <h3> 
-
         < ?=
         <!-- method(variable); == returns the data type, character length, and value of the variable.
          Can be used in debugging-->
@@ -78,6 +96,14 @@
         </h3>
         <h3>
             <?= "Define Constant: ". MYNAME?>
+        </h3>
+        <h2>This is the PHP Data types</h2>
+        <h3>
+            <?php
+            echo '<pre>';
+            var_dump(PHPDATATYPETREE);
+            echo '</pre>';
+            ?>
         </h3>
        
     </div>

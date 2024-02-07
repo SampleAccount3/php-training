@@ -1,6 +1,6 @@
 # php-training
 
-1 Variables
+1. Variables
 - variable declaration
 - data types
 - debugging functions (var_dump() and die())
