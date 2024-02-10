@@ -121,6 +121,125 @@
         echo '</pre>';
         ?>
     </h3>
+
+    <h3>
+        If 
+        <?php
+        echo '<pre>';
+            $isGood = true;
+            // if(true) run this statement;
+            if($isGood) echo 'Display this if $isGood is true if not ignore this statement'; 
+        echo '</pre>';
+        ?>
+    </h3>
+
+    <h3>
+        Switch
+        <?php
+        echo '<pre>';
+        // switch syntax
+        // switch (expression) {
+        //     case value1:
+        //         // code block 1
+        //         break;
+        //     case value2:
+        //         // code block 2
+        //         break;
+        //     case value3:
+        //         // code block 3
+        //         break;
+        //     default:
+        //         // default code block
+        // }
+
+        // switch syntax (combining cases)
+        // switch (expression) {
+        //     case value1:
+        //         // code block 1
+        //         break;
+        //     "The Case value 2 and 3 will have the same output"
+        //     case value2:
+        //     case value3:
+        //         // code block 3
+        //         break;
+        //     default:
+        //         // default code block
+        // }
+        echo '</pre>';
+        ?>
+    </h3>
+
+    <h3>
+        For Loop
+        <?php
+        echo '<pre>';
+            // if the condition is true continue to loop until the condition is fulfilled
+            // for (start; condition; increment){
+            //     statement;
+            // }
+        echo '</pre>';
+        ?>
+    </h3>
+
+    <h3>
+        While Loop
+        <?php
+        echo '<pre>';
+            // while the expression is true continue the execution of while loop 
+            // if the expression is false the loop ends 
+            // while(expression){
+            //     statement;
+            // }
+        echo '</pre>';
+        ?>
+    </h3>
+
+    <h3>
+        Do While Loop
+        <?php
+        echo '<pre>';
+            // the do while loop executes the statement at least once even if the expression is false
+            // while the expression is true continue the execution of while loop 
+            // if the expression is false the loop ends 
+            // do{
+            //     statement;
+            // }while (expression);
+        echo '</pre>';
+        ?>
+    </h3>
+    <h3>
+        Break
+        <?php
+        echo '<pre>';
+            // the break statement immediately breaks out of the loop
+            // while(expression){
+            //     statement;
+            //     break;
+            // }
+            // sample of using with if
+            // while(expression){
+            //      statement;
+            //      if(expression){
+            //          break;
+            //      }
+            // }
+        echo '</pre>';
+        ?>
+    </h3>
+
+    <h3>
+        Continue
+        <?php
+        echo '<pre>';
+                // the Continue statement skips the current Loop iteration 
+                // while(expression){
+                //     statement;
+                //     continue;
+                // }
+        echo '</pre>';
+        ?>
+    </h3>
+
 </body>
 </html>
 
