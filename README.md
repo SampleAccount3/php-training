@@ -25,3 +25,11 @@
     - Stopper
         - break
         - continue
+
+3. Functions
+    - Function Declaration
+    - Passing the Argument by Values
+    - Passing the Argument by Reference
+    - Global Variables
+    - Static Variables
+    - Variadic Function
