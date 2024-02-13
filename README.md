@@ -33,3 +33,9 @@
     - Global Variables
     - Static Variables
     - Variadic Function
+
+4. OOP
+    -Object
+    -Classes
+    -$this
+    -Access Modifier
