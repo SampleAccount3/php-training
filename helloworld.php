@@ -24,13 +24,16 @@
         <?= $name?>
         <?php
         // using an variable ($ObjectClassName) to reference the class (ClassName)
-        $ObjectClassName = new ClassName;
+        $ObjectClassName = new ClassName('Melanio',3);
+        
         // !!when accessing the properties from a class remove the $ from the property
-        $ObjectClassName->setPropsName('Melanio Flores');
-        $ObjectClassName->setPropsAge('Melanio Flores');
+        // $ObjectClassName->setPropsName('Melanio Flores');
+        // $ObjectClassName->setPropsAge('Melanio Flores');
         // when calling a method you can use -> instead of .
         $ObjectClassName->HelloWorld();
-        echo '<br>'. $ObjectClassName->getPropsName();
+        // var_dump($ObjectClassName);
+        // echo '<br>'. $ObjectClassName->getPropsName();
+        // echo '<br>'. $ObjectClassName->getPropsAge();
         // echo '<br>'. $ObjectClassName->$propsName.'<br>'. $ObjectClassName->$propsAge;
         ?>
     </h2>
