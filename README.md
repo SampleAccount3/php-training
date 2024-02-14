@@ -38,6 +38,6 @@
     - Object & Classes
         - $this
         - Access Modifier
-    - Properties
+    - Properties // Only Applicable on php 7.4 above
         - Typed Properties
         - Read Only Properties

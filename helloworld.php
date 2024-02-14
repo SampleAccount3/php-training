@@ -8,7 +8,8 @@
 <!-- the var should always be declared at the top -->
 <?php
     // include locates your php file that you want to use in this html
-    include_once ("C:/Users/ITD/Practice Web Development/php/php-training/ClassesObject.php");
+    include_once ("ClassesObject.php");
+    include_once ("TypeProperties.php")
 ?>
 <head>
     <meta charset="UTF-8">
