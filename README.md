@@ -41,3 +41,11 @@
     - Properties // Only Applicable on php 7.4 above
         - Typed Properties
         - Read Only Properties
+    - Inheritance
+        - Inheritances
+        - Calling The Parent Constructor
+        - Overriding Methods
+        - The Protected Keyword
+    - Polymorphism
+    - Traits
+    
