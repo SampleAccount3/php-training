@@ -1,8 +1,10 @@
  <?php
   $name = "Melares";
     class ClassName{
+        // php has an private, public, and protected access modifier
         private $propsName;
         private $propsAge;
+
 
         // the 
         function HelloWorld(){
@@ -22,9 +24,5 @@
         function setPropsAge($propsAge){
             $this->propsAge = $propsAge;
         }
-
     }
-
-  
- 
  ?>

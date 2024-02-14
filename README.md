@@ -35,7 +35,7 @@
     - Variadic Function
 
 4. OOP
-    -Object
-    -Classes
-    -$this
-    -Access Modifier
+    - Object
+    - Classes
+    - $this
+    - Access Modifier
