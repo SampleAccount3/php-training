@@ -1,15 +1,22 @@
+<?php
+declare(strict_types=1);
+?>
 <!DOCTYPE html>
 <html lang="en">
     <style>
         html{font-family: 'Montserrat', sans-serif;}
     </style>
 <!-- the var should always be declared at the top -->
+
 <?php
+// Strict data types
+
 // The variable in php is dynamic you can assign any data types without having an error
     $name = "Melares";
     $age = 23;
     $isGood = true;
     $double = 1.0;
+    $double = "sample";
     // assigning a value in a multple variables
     // the  $name1 $name2 $name3 can inherit the value of $name
     $name1 = $name2 = $name3 = $name;
