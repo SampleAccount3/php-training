@@ -42,7 +42,7 @@
         // declaring function syntax
         // functionName(argument);
         hello($name);
-        // the returnFunction is assigining a string value to $helloName
+        // the returnFunction is assigning a string value to $helloName
         $helloName = returnFunction($name);
         echo "\n";
         echo $helloName;
