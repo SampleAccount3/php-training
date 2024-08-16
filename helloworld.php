@@ -7,10 +7,7 @@
     </style>
 <!-- the var should always be declared at the top -->
 <?php
-    include "./TypeHints.php";
     $name = "Melares";
-    $result= null;
-    $sample_object = new Sample();
 ?>
 <head>
     <meta charset="UTF-8">
