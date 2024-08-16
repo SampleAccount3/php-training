@@ -17,6 +17,7 @@ class Sample{
     public static function int_type_sample(int $x, int $y): int{
         return $x * $y;
     }
+    
     public static function string_type_sample(string $x, string $y): string{
         return $x + $y;
     }
