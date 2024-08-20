@@ -30,11 +30,27 @@
         // Function parameters
         public static function sum($items){
             // function variables 
+            // you can only access the $total inside this function
             $total = 0;
             foreach($items as $item){
                 $total += $item;
             }
             return $total;
+        }
+    }
+    // The difference between self:: vs This:
+        // self:: is for accessing static members (class-level).
+        // $this is for accessing instance members (object-level).
+    class SampleClassVariables{
+       private static $total = 1;
+        public static function sample1(){
+            echo self::$total;
+        }
+    }
+    class SampleClassVariablesThis{
+        private $sampleVar = "Hello";
+        public function sample1(){
+            return $this->sampleVar;
         }
     }
   
