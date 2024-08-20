@@ -1,6 +1,7 @@
 # php-training
 
 1. Variables
+<<<<<<< HEAD
     - variable declaration
     - data types
     - debugging functions (var_dump() and die())
@@ -39,3 +40,11 @@
     - Classes
     - $this
     - Access Modifier
+=======
+- variable declaration
+- data types
+- debugging functions (var_dump() and die())
+- constant and define()
+- type casting
+- type juggling
+>>>>>>> 74a340013e75f67a9e7e59087ee942bba1abae7f
