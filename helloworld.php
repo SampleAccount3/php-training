@@ -7,6 +7,7 @@
     </style>
 <!-- the var should always be declared at the top -->
 <?php
+    include_once("Collections.php");
     $name = "Melares";
 ?>
 <head>
@@ -19,6 +20,7 @@
     <h1>
         <?= "Main";?>
     </h1>
+    <h1><?= Test1::testFunction()?></h1>
     <h2>
         
     </h2>
