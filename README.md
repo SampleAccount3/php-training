@@ -35,7 +35,24 @@
     - Variadic Function
 
 4. OOP
+<<<<<<< HEAD
     - Object
     - Classes
     - $this
     - Access Modifier
+=======
+    - Object & Classes
+        - $this
+        - Access Modifier
+    - Properties // Only Applicable on php 7.4 above
+        - Typed Properties
+        - Read Only Properties
+    - Inheritance
+        - Inheritances
+        - Calling The Parent Constructor
+        - Overriding Methods
+        - The Protected Keyword
+    - Polymorphism
+    - Traits
+    
+>>>>>>> a1ccf65f4381f56b8987ecadf872466745d8e90b
