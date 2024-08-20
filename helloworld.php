@@ -7,6 +7,7 @@
     </style>
 <!-- the var should always be declared at the top -->
 <?php
+    include_once("VariableScopes.php");
     $name = "Melares";
 ?>
 <head>
@@ -20,7 +21,22 @@
         <?= "Main";?>
     </h1>
     <h2>
-        
+        <?= say();?>
     </h2>
+    <h1>
+        <?= SampleClass::staticFunction();?>
+    </h1>
+    <h1>
+        <?= StaticVariables::getCounter() ?>
+        <?= StaticVariables::getCounter() ?>
+        <?= StaticVariables::getCounter() ?>
+        <?= StaticVariables::getCounter2() ?>
+        <?= StaticVariables::getCounter2() ?> 
+        <?= StaticVariables::getCounter2() ?>
+        <?= StaticVariables::getCounter2() ?>
+    </h1>
+    <h1>
+        <?= FunctionParameters::sum([10,10,30,50]);?>
+    </h1>
 </body>
 </html>
