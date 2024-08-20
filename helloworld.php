@@ -20,9 +20,14 @@
     <h1>
         <?= "Main";?>
     </h1>
-    <h1><?= Test1::testFunction()?></h1>
-    <h2>
-        
-    </h2>
+    <h1><?=Test1::testFunction()?></h1>
+    <h2></h2>
+    <h2>normalArray(): <?=Collections::normalArray()?></h2>
+    <h2> Accessing Array Elements: <?=Collections::accessingArrayElements(2)?></h2> 
+    <h2>Adding New Array Elements: <?= Collections::addingNewArrayElements()?> </h2>
+    <h2>After adding the Array: <?=Collections::normalArray()?></h2>
+    <h2>Updating the array Elements<?= Collections::updatingArrayElements()?></h2>
+    <h2>After updating the Array:<?=Collections::normalArray()?></h2>
+
 </body>
 </html>
