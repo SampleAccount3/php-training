@@ -42,5 +42,10 @@
     <h2>For Each Assoc With Elements: </br> <?= CollectionAssocArray::forEachAssocArray2()?>
     <h1>Array Methods</h1>
     <h2><?= ArrayMethods::printArray()?></h2>
+    <h2>Prepending a new Elements <?=ArrayMethods::prependArray()?></h2>
+    <h2><?= ArrayMethods::printAssocArray()?></h2>
+    <h2>Prepending a new Assoc Elements <?=ArrayMethods::prependAssocArray()?></h2>
+    
+    
 </body>
 </html>

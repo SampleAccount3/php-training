@@ -82,9 +82,29 @@
 
     class ArrayMethods{
         private static $sampleArray = ["A","B","C","D","E","F","G","H"];
+        private static $assocArray = [
+            "Name" => "Melanio",
+            "LastName" => "Flores",
+            "Age" => "24",
+            "Job" => "Programmer"
+        ];
         public static function printArray(){
             print_r(self::$sampleArray);
         }
+        public static function printAssocArray(){
+            print_r(self::$assocArray);
+        }
+        // Prepending / array_unshift: Adding a new Elements at the Start of an Array
+        public static function prependArray(){
+            array_unshift(self::$sampleArray, "I","J","K","L");
+            print_r(self::$sampleArray);
+        }
+        public static function prependAssocArray(){
+            self::$assocArray = ["Id", "1"] + self::$assocArray;
+            print_r(self::$assocArray);
+        }
+        //TBC at array_push
+
     }
 
 
