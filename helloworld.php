@@ -9,7 +9,9 @@
 <?php
     // include locates your php file that you want to use in this html
     include_once ("ClassesObject.php");
-    include_once ("TypeProperties.php")
+    include_once ("TypeProperties.php");
+    include_once ("ComputationClass.php")
+   
 ?>
 <head>
     <meta charset="UTF-8">
@@ -24,6 +26,7 @@
     <h2>
         <?= $name?>
         <?php
+        
         // using an variable ($ObjectClassName) to reference the class (ClassName)
         $ObjectClassName = new ClassName('Melanio',3);
         
@@ -36,6 +39,22 @@
         // echo '<br>'. $ObjectClassName->getPropsName();
         // echo '<br>'. $ObjectClassName->getPropsAge();
         // echo '<br>'. $ObjectClassName->$propsName.'<br>'. $ObjectClassName->$propsAge;
+        ?>
+    </h2>
+    <h2>
+        <?php
+        $mathComputation = new MathComputation(200,33);
+
+        echo $mathComputation->startComputation("*")
+        ?>
+    </h2>
+    <h2>
+        <?php
+        // Interfaces as Parameter
+            $addition = new SampleInterface1();
+            $subtraction = new SampleInterface2();
+            
+            $mathComputation->interfaceCompute($subtraction);
         ?>
     </h2>
 </body>

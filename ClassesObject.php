@@ -32,9 +32,9 @@
             $this->propsAge = $propsAge;
         }
 
-        function __destruct()
-        {
-            echo 'remove all';
-        }
+        // function __destruct()
+        // {
+        //     echo 'remove all';
+        // }
     }
  ?>
