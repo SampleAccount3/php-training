@@ -29,10 +29,10 @@
     </h2>
     <h2>
         <?php
-            $addition = new Addition();
-            $subtraction = new Subraction();
-            $computation = new Computation($addition);
-            $computationSub = new Computation($subtraction);
+           $addition = new Addition();
+           $subtraction = new Subtraction();
+           $computation = new Computation($addition);
+           $computationSub = new Computation($subtraction);
            echo $result = $computation->execute(2,1);
            echo "</br>";
            echo $result = $computationSub->execute(55,2);

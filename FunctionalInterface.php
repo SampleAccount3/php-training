@@ -12,7 +12,7 @@
             return $x + $y;
         }
     }
-    class Subraction implements functionalInterfaceComputation{
+    class Subtraction implements functionalInterfaceComputation{
         public function compute($x,$y)
         {
             return $x - $y;
