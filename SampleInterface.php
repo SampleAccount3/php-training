@@ -1,23 +1,23 @@
 <?php
-    class Addition implements Computation{
+    class Addition implements ComputationCompute{
 
         public function compute(float $x, float $y): float{
             return $x +$y;
         }
     }
-    class Subtraction implements Computation{
+    class Subtraction implements ComputationCompute{
 
         public function compute(float $x, float $y): float{
             return $x - $y;
         }
     }
-    class Multiplication implements Computation{
+    class Multiplication implements ComputationCompute{
 
         public function compute(float $x, float $y): float{
             return $x * $y;
         }
     }
-    class Division implements Computation{
+    class Division implements ComputationCompute{
 
         public function compute(float $x, float $y): float{
             return $x / $y;

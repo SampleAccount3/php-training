@@ -34,7 +34,7 @@
 
         }
 
-        // the statements depends on the Objects
+        // the functionalities depends on the Objects/Class
         public function interfaceCompute(Computation $computation){
             echo $computation->compute(5,3);
             echo $computation->Hello("Melares");
