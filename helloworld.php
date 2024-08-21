@@ -7,6 +7,8 @@
     </style>
 <!-- the var should always be declared at the top -->
 <?php
+    include_once("Class.php");
+    include_once("FunctionalInterface.php");
     $name = "Melares";
 ?>
 <head>
@@ -20,7 +22,21 @@
         <?= "Main";?>
     </h1>
     <h2>
-        
+        <?php
+            $classUtilities = new classUtilities();
+            echo $classUtilities->ReturnValues(22,11);
+        ?>
+    </h2>
+    <h2>
+        <?php
+            $addition = new Addition();
+            $subtraction = new Subraction();
+            $computation = new Computation($addition);
+            $computationSub = new Computation($subtraction);
+           echo $result = $computation->execute(2,1);
+           echo "</br>";
+           echo $result = $computationSub->execute(55,2);
+        ?>
     </h2>
 </body>
 </html>
